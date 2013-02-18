@@ -1,0 +1,20 @@
+/*
+Theme Name:     Antropi-NG
+Theme URI:      http://commons.cc/antropi
+Description:    Antropi theme, child theme for the Twenty Twelve theme 
+Author:         Sérgio Berlotto Jr
+Author URI:     http://pythonrs.org
+Template:       twentytwelve
+Version:        0.1.0
+*/
+
+@import url("../twentytwelve/style.css");
+
+hgroup{
+	background-image: url('logo.png');
+	height: 160px;
+}
+
+hgroup h1, hgroup h2{
+	float: right;
+}
