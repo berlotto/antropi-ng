@@ -18,3 +18,12 @@ hgroup{
 hgroup h1, hgroup h2{
 	float: right;
 }
+
+.template-front-page .widget-area .widget, 
+.template-front-page.two-sidebars .widget-area .front-widgets{
+	width: 33%;
+}
+.template-front-page .widget-area .widget:nth-child(2n), 
+.template-front-page.two-sidebars .widget-area .front-widgets + .front-widgets{
+	width: 33%;	
+}
