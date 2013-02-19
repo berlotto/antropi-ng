@@ -5,7 +5,7 @@ Description:    Antropi theme, child theme for the Twenty Twelve theme
 Author:         Sérgio Berlotto Jr
 Author URI:     http://pythonrs.org
 Template:       twentytwelve
-Version:        0.1.1
+Version:        0.1.2
 */
 
 @import url("../twentytwelve/style.css");
@@ -19,7 +19,6 @@ hgroup h1, hgroup h2{
 	float: right;
 }
 
-.template-front-page .widget-area .widget, 
 .template-front-page.two-sidebars .widget-area .front-widgets{
 	width: 33%;
 }
