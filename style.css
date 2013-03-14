@@ -1,7 +1,7 @@
 /*
 Theme Name:     Antropi-NG
 Github Theme URI: https://github.com/berlotto/antropi-ng
-Description:    Antropi theme, child theme for the Twenty Twelve theme 
+Description:    Antropi theme, child theme for the Twenty Twelve theme
 Author:         Sérgio Berlotto Jr
 Author URI:     http://pythonrs.org
 Template:       twentytwelve
@@ -22,7 +22,44 @@ hgroup h1, hgroup h2{
 .template-front-page.two-sidebars .widget-area .front-widgets{
 	width: 33%;
 }
-.template-front-page .widget-area .widget:nth-child(2n), 
+.template-front-page .widget-area .widget:nth-child(2n),
 .template-front-page.two-sidebars .widget-area .front-widgets + .front-widgets{
-	width: 33%;	
+	width: 33%;
+}
+
+.entry-header {
+    margin: 0;
+}
+
+.site {
+    overflow: visible;
+}
+
+div.sumula {
+    background-color: #CCCCFF;
+    font-size: 10pt;
+    padding: 5px 30px;
+    text-align: justify;
+}
+
+.entry-header .entry-title {
+    font-size: 3.5em;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+    background-color: #015666;
+    margin-left: -60px;
+    display: inline-block;
+}
+
+h2.data {
+    margin-left: -60px;
+    padding: 5px 10px;
+    color: white;
+    background-color: #015666;
+    display: inline-block;
+}
+
+h2.titulo_aula {
+    margin: 0 0 20px 0;
 }
