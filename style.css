@@ -5,7 +5,7 @@ Description:    Antropi theme, child theme for the Twenty Twelve theme
 Author:         Sérgio Berlotto Jr
 Author URI:     http://pythonrs.org
 Template:       twentytwelve
-Version:        0.1.6
+Version:        0.1.7
 */
 
 @import url("../twentytwelve/style.css");
@@ -125,4 +125,8 @@ h2.titulo_aula {
 
 .biblioteca ul li a {
     text-decoration: none;
+}
+
+.site-content article{
+	margin-bottom: 0px;
 }
