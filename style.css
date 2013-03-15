@@ -38,18 +38,19 @@ hgroup h1, hgroup h2{
 div.sumula {
     background-color: #CCCCFF;
     font-size: 10pt;
-    padding: 5px 30px;
+    padding: 30px 30px 5px;
     text-align: justify;
 }
 
 .entry-header .entry-title {
-    font-size: 3.5em;
+    font-size: 3em;
     padding: 5px 10px;
     color: white;
     font-weight: bold;
     background-color: #015666;
     margin-left: -60px;
     display: inline-block;
+    margin-bottom: 20px;
 }
 
 h2.data {
@@ -62,4 +63,66 @@ h2.data {
 
 h2.titulo_aula {
     margin: 0 0 20px 0;
+}
+
+/* ---- Linha do tempo --- */
+
+#timeline ul li {
+    margin: 0;
+}
+
+/* ---- Catlist ---- */
+
+.lcp_catlist li > a {
+    font-size: 15pt;
+}
+
+.lcp_catlist li {
+    list-style: none;
+}
+
+
+/* Agenda */
+
+.agenda {
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #CCC;
+    padding-bottom: 20px;
+    text-align: justify;
+    width: 600px;
+}
+
+
+/* Resenha */
+
+.resenha ul li {
+    margin-bottom: 10px;
+    border-bottom: 1px dotted #CCC;
+    padding-bottom: 10px;
+}
+
+.resenha ul li:last-child {
+    border: none;
+}
+
+.resenha ul li a {
+    text-decoration: none;
+    font-size: 12pt;
+}
+
+/* Biblioteca */
+
+.biblioteca ul li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+.biblioteca ul li:last-child {
+    border: none;
+}
+
+.biblioteca ul li a {
+    text-decoration: none;
 }
