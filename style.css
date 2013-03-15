@@ -43,7 +43,7 @@ div.sumula {
 }
 
 .entry-header .entry-title {
-    font-size: 3em;
+    font-size: 2.4em;
     padding: 5px 10px;
     color: white;
     font-weight: bold;
@@ -127,6 +127,40 @@ h2.titulo_aula {
     text-decoration: none;
 }
 
+/* Widgets internas sidebar */
+
+#secondary > aside.widget {
+    background-color: #CCCCFF;
+    padding: 10px;
+    overflow: auto;
+}
+
+#secondary > aside.widget h3 {
+    text-transform: inherit;
+    margin-bottom: 1.1rem;
+    font-size: 10pt;
+}
+
+#secondary > aside.widget > ul li {
+    margin-bottom: 10px;
+}
+
+#secondary >  .widget_listcategorypostswidget > a {
+    color: #21759B;
+    float: right;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.widget-area .widget p {
+    margin: 0;
+}
+
+/* ---------------------- */
+
+.site-content article {
+    margin-bottom: 0;
+}
 .site-content article{
 	margin-bottom: 0px;
 }
