@@ -17,7 +17,7 @@ get_header(); ?>
 	<div id="primary" class="site-content">
 		<div id="content" role="main">
 
-			<div id="left-sidebar">
+			<div id="left-sidebar" class="widget-area">
 				<?php if ( is_active_sidebar( 'sidebar-front-left' ) ) : ?>
 				<div class="first front-widgets">
 					<?php dynamic_sidebar( 'sidebar-front-left' ); ?>
@@ -27,7 +27,7 @@ get_header(); ?>
 
 			<div id="right-container">
 
-				<div id="top">
+				<div id="top" class="widget-area">
 					<?php if ( is_active_sidebar( 'sidebar-front-top' ) ) : ?>
 					<div class="first front-widgets">
 						<?php dynamic_sidebar( 'sidebar-front-top' ); ?>
@@ -35,14 +35,29 @@ get_header(); ?>
 					<?php endif; ?>
 				</div>
 
-				<div id="left">
+				<div id="primary"  class="site-content">
+				
+					<?php while ( have_posts() ) : the_post(); ?>
+						<?php if ( has_post_thumbnail() ) : ?>
+							<div class="entry-page-image">
+								<?php the_post_thumbnail(); ?>
+							</div><!-- .entry-page-image -->
+						<?php endif; ?>
+
+						<?php get_template_part( 'content', 'page' ); ?>
+
+					<?php endwhile; // end of the loop. ?>
+
+				</div>
+
+				<div id="left" class="widget-area">
 					<?php if ( is_active_sidebar( 'sidebar-front-half' ) ) : ?>
 					<div class="first front-widgets">
 						<?php dynamic_sidebar( 'sidebar-front-half' ); ?>
 					</div><!-- .first -->
 					<?php endif; ?>
 				</div>
-				<div id="right">
+				<div id="right" class="widget-area">
 					<?php if ( is_active_sidebar( 'sidebar-front-right' ) ) : ?>
 					<div class="first front-widgets">
 						<?php dynamic_sidebar( 'sidebar-front-right' ); ?>
