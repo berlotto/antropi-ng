@@ -127,6 +127,14 @@ h2.titulo_aula {
     text-decoration: none;
 }
 
+.post_blog li {
+    list-style: none outside none;
+    margin-bottom: 20px;
+    margin-left: 0;
+    padding-right: 30px;
+    text-align: justify;
+}
+
 /* Widgets internas sidebar */
 
 #secondary > aside.widget {
