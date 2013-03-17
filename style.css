@@ -172,3 +172,22 @@ h2.titulo_aula {
 .site-content article{
 	margin-bottom: 0px;
 }
+
+/* sanfona */
+
+
+.snvdshc .lcp_catlist > li {
+    margin-bottom: 20px;
+}
+
+.snvdshc .ui-widget-content a {
+    color: #222222;
+    font-size: 11pt;
+    font-weight: bold;
+    margin-bottom: 22px;
+    text-decoration: none;
+}
+
+.snvdshc h4.section-title {
+    margin: 20px 0 0;
+}
