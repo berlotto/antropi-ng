@@ -18,6 +18,25 @@ get_header(); ?>
 		<div id="content" role="main">
 
 			<div id="left-sidebar" class="widget-area">
+				<div class="content-front">
+            	<?php
+                query_posts("cat=6&post_per_page=5");
+                // start the wordpress loop!
+                if (have_posts()) : while (have_posts()) : the_post(); ?>
+
+                    <?php // create our link now that the post is setup ?>
+					<?php if ( has_post_thumbnail() ) : ?>
+						<div class="entry-page-image">
+							<?php the_post_thumbnail(); ?>
+						</div><!-- .entry-page-image -->
+					<?php endif; ?>
+
+					<?php get_template_part( 'content', 'page-front' ); ?>
+					<!-- <a class="leiamais" href="<?php the_permalink();?>">Leia mais</a> -->
+
+                <?php endwhile; endif; // done our wordpress loop. Will start again for each category ?>
+				</div>
+				
 				<?php if ( is_active_sidebar( 'sidebar-front-left' ) ) : ?>
 				<div class="first front-widgets">
 					<?php dynamic_sidebar( 'sidebar-front-left' ); ?>
