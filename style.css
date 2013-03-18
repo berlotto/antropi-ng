@@ -177,7 +177,8 @@ h2.titulo_aula {
 
 
 .snvdshc .lcp_catlist > li {
-    margin-bottom: 20px;
+    margin: 10px;
+    font-size: 0.928571rem;
 }
 
 .snvdshc .ui-widget-content a {
@@ -189,5 +190,12 @@ h2.titulo_aula {
 }
 
 .snvdshc h4.section-title {
-    margin: 20px 0 0;
+    margin: 2px 0 0;
+    font-weight: bold;
+}
+
+/* ----------- */
+
+#right-container > #right {
+    float: right;
 }
