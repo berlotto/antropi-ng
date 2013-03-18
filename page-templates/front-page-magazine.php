@@ -24,13 +24,6 @@ get_header(); ?>
                 // start the wordpress loop!
                 if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-                    <?php // create our link now that the post is setup ?>
-					<?php if ( has_post_thumbnail() ) : ?>
-						<div class="entry-page-image">
-							<?php the_post_thumbnail(); ?>
-						</div><!-- .entry-page-image -->
-					<?php endif; ?>
-
 					<?php get_template_part( 'content', 'page-front' ); ?>
 					<!-- <a class="leiamais" href="<?php the_permalink();?>">Leia mais</a> -->
 
