@@ -28,6 +28,7 @@ get_header(); ?>
 					<!-- <a class="leiamais" href="<?php the_permalink();?>">Leia mais</a> -->
 
                 <?php endwhile; endif; // done our wordpress loop. Will start again for each category ?>
+                <?php wp_reset_query(); ?> 
 				</div>
 				
 				<?php if ( is_active_sidebar( 'sidebar-front-left' ) ) : ?>
