@@ -15,7 +15,7 @@
 
 		<?php if ( has_post_thumbnail() ) : ?>
 			<div class="entry-page-image">
-				<?php the_post_thumbnail(); ?>
+				<a href="<?php the_permalink();?>"><?php the_post_thumbnail(); ?></a>
 			</div><!-- .entry-page-image -->
 		<?php endif; ?>
 
@@ -26,6 +26,7 @@
 			<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'twentytwelve' ), 'after' => '</div>' ) ); ?>
 		</div><!-- .entry-content -->
 		<footer class="entry-meta">
+			Em: <?php the_time('j/m/Y g:i A') ?>
 			<?php edit_post_link( __( 'Edit', 'twentytwelve' ), '<span class="edit-link">', '</span>' ); ?>
 		</footer><!-- .entry-meta -->
 	</article><!-- #post -->

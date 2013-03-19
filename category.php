@@ -17,15 +17,6 @@ get_header(); ?>
 		<div id="content" role="main">
 
 		<?php if ( have_posts() ) : ?>
-			<header class="archive-header">
-				<h1 class="archive-title">
-					<?php printf( __( 'Category Archives: %s', 'twentytwelve' ), '<span>' . single_cat_title( '', false ) . '</span>' ); ?></h1>
-
-			<?php if ( category_description() ) : // Show an optional category description ?>
-				<div class="archive-meta"><?php echo category_description(); ?></div>
-			<?php endif; ?>
-			</header><!-- .archive-header -->
-
 			<?php
 			/* Start the Loop */
 			while ( have_posts() ) : the_post();?>
@@ -46,6 +37,7 @@ get_header(); ?>
 					<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'twentytwelve' ), 'after' => '</div>' ) ); ?>
 				</div><!-- .entry-content -->
 				<footer class="entry-meta">
+					Em: <?php the_time('j/m/Y g:i A') ?>
 					<?php edit_post_link( __( 'Edit', 'twentytwelve' ), '<span class="edit-link">', '</span>' ); ?>
 					<a clss="leiamais" href="<?php the_permalink();?>">Leia mais</a>
 				</footer><!-- .entry-meta -->
