@@ -9,7 +9,8 @@
 ?>
 
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-		<?php if (the_title() != ""): ?>
+
+		<?php if( !is_home() && !is_front_page() ):?>
 		<header class="entry-header">
 			<h1 class="entry-title"><?php the_title(); ?></h1>
 		</header>
