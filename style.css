@@ -194,8 +194,46 @@ h2.titulo_aula {
     font-weight: bold;
 }
 
-/* ----------- */
+/* Widget capa */
+
+#right-container > #top {
+    position: relative;
+    z-index: 0;
+}
 
 #right-container > #right {
     float: right;
+}
+
+
+/* Footer */
+
+
+.infos li {
+    display: inline-block;
+    width: 300px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.infos li:last-child {
+    margin-right: 0px;
+}
+
+.infos img {
+    margin-bottom: 40px;
+}
+
+.nucleo li {
+    display: block;
+    font-size: 8pt;
+    text-align: left;
+}
+
+.nucleo h3 {
+    font-size: 11pt;
+}
+
+.contact li {
+    text-align: right;
 }
