@@ -27,7 +27,7 @@ get_header(); ?>
 				</header>
 				<?php if ( has_post_thumbnail() ) : ?>
 					<div class="entry-page-image">
-						<?php the_post_thumbnail(); ?>
+						<a href="<?php the_permalink();?>"><?php the_post_thumbnail(); ?></a>
 					</div><!-- .entry-page-image -->
 				<?php endif; ?>
 				
