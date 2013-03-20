@@ -210,10 +210,6 @@ h2.titulo_aula {
     z-index: 0;
 }
 
-#right-container > #right {
-    float: right;
-}
-
 .widget-area .entry-header .entry-title {
     background-color: none;
     font-size: 16pt;
