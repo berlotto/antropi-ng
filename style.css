@@ -201,12 +201,6 @@ h2.titulo_aula {
 
 /* Widget capa */
 
-#right-container {
-    background-color: transparent;
-    float: right;
-    width: 62%;
-}
-
 #right-container > #top {
     position: relative;
     z-index: 0;

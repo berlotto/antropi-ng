@@ -13,9 +13,9 @@
 }
 
 #right-container{
-	width: 67%;
-	background-color: transparent;
-	float: left;
+        background-color: transparent;
+        float: right;
+        width: 62%;
 }
 
 #right-container > #top{
