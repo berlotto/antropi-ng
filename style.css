@@ -175,6 +175,11 @@ h2.titulo_aula {
 
 /* sanfona */
 
+.snvdshc {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+}
 
 .snvdshc .lcp_catlist > li {
     margin: 10px;
@@ -196,6 +201,12 @@ h2.titulo_aula {
 
 /* Widget capa */
 
+#right-container {
+    background-color: transparent;
+    float: right;
+    width: 62%;
+}
+
 #right-container > #top {
     position: relative;
     z-index: 0;
@@ -205,6 +216,21 @@ h2.titulo_aula {
     float: right;
 }
 
+.widget-area .entry-header .entry-title {
+    background-color: none;
+    font-size: 16pt;
+    background-color: transparent;
+    padding: 0;
+    margin-left: 0;
+}
+
+.widget-area footer.entry-meta {
+    text-align: right;
+}
+
+.category-blog {
+    margin-bottom: 30px;
+}
 
 /* Footer */
 
