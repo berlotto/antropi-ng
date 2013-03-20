@@ -218,6 +218,10 @@ h2.titulo_aula {
     margin-left: 0;
 }
 
+.widget-area .entry-header .entry-title a {
+    color: #21759B;
+}
+
 .widget-area footer.entry-meta {
     text-align: right;
 }
