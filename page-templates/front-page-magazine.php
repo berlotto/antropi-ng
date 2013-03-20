@@ -20,7 +20,7 @@ get_header(); ?>
 			<div id="left-sidebar" class="widget-area">
 				<div class="content-front">
             	<?php
-                query_posts("cat=6&post_per_page=5");
+                query_posts( array( "cat"=>6, "posts_per_page"=>5 ) );
                 // start the wordpress loop!
                 if (have_posts()) : while (have_posts()) : the_post(); ?>
 
