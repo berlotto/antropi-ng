@@ -232,7 +232,6 @@ h2.titulo_aula {
 
 /* Footer */
 
-
 .infos li {
     display: inline-block;
     width: 300px;
@@ -244,7 +243,7 @@ h2.titulo_aula {
     margin-right: 0px;
 }
 
-.infos img {
+.infos .ufrgs img {
     margin-bottom: 40px;
 }
 
