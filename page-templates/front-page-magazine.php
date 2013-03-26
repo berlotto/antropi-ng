@@ -28,9 +28,9 @@ get_header(); ?>
 					<!-- <a class="leiamais" href="<?php the_permalink();?>">Leia mais</a> -->
 
                 <?php endwhile; endif; // done our wordpress loop. Will start again for each category ?>
-                <?php wp_reset_query(); ?> 
+                <?php wp_reset_query(); ?>
 				</div>
-				
+
 				<?php if ( is_active_sidebar( 'sidebar-front-left' ) ) : ?>
 				<div class="first front-widgets">
 					<?php dynamic_sidebar( 'sidebar-front-left' ); ?>
@@ -49,7 +49,7 @@ get_header(); ?>
 				</div>
 
 				<div id="primary"  class="site-content">
-				
+
 					<?php while ( have_posts() ) : the_post(); ?>
 						<?php if ( has_post_thumbnail() ) : ?>
 							<div class="entry-page-image">
@@ -63,6 +63,7 @@ get_header(); ?>
 
 				</div>
 
+                                <div class="vitrine">
 				<div id="left" class="widget-area">
 					<?php if ( is_active_sidebar( 'sidebar-front-half' ) ) : ?>
 					<div class="first front-widgets">
@@ -77,7 +78,7 @@ get_header(); ?>
 					</div><!-- .first -->
 					<?php endif; ?>
 				</div>
-
+                                </div>
 			</div>
 
 

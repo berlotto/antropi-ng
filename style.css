@@ -10,6 +10,11 @@ Version:        1.2.0
 
 @import url("../twentytwelve/style.css");
 
+
+.site-header {
+    padding: 1.71429rem 0 0 0;
+}
+
 hgroup{
 	/*background-image: url('logo.png');*/
 	height: 160px;
@@ -166,6 +171,10 @@ h2.titulo_aula {
 
 .widget-area .widget p {
     margin: 0;
+}
+
+#right-container .site-content article {
+    padding-bottom: 0;
 }
 
 /* ---------------------- */
