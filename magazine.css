@@ -28,16 +28,17 @@
     background: none repeat scroll 0 0 #EEEEEE;
     border: 1px solid #EEEEEE;
     overflow: auto;
+    padding: 0 10px;
 }
 
-.vitrini #left{
+.vitrini #left {
 	width: 45%;
 	float: left;
 	background-color: transparent;
 	margin-left: 10px;
 }
 
-.vitrini #right{
+.vitrini #right {
 	width: 45%;
 	float: right;
 	background-color: transparent;
