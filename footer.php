@@ -22,7 +22,7 @@
 
     <li>
       <ul class="nucleo">
-        <li><h3>Antropologia da Propriedade Intelectual Departamento de Antropologia</h3></li>
+        <li><h3>Antropologia da Propriedade Intelectual Departamento de Antropologia<br></h3></li>
         <li>Instituto de Filosofia e Ciências Humanas</li>
         <li>Prédio 43311 A – Sala 219</li>
         <li>Campus Agronomia</li>
