@@ -24,14 +24,20 @@
 	margin-bottom: 5px;
 }
 
-#right-container > #left{
+.vitrini {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #EEEEEE;
+    overflow: auto;
+}
+
+.vitrini #left{
 	width: 45%;
 	float: left;
 	background-color: transparent;
 	margin-left: 10px;
 }
 
-#right-container > #right{
+.vitrini #right{
 	width: 45%;
 	float: right;
 	background-color: transparent;
