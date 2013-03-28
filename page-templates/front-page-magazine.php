@@ -63,7 +63,7 @@ get_header(); ?>
 
 				</div>
 
-
+                                <div class="vitrini">
 				<div id="left" class="widget-area">
 					<?php if ( is_active_sidebar( 'sidebar-front-half' ) ) : ?>
 					<div class="first front-widgets">
@@ -78,7 +78,7 @@ get_header(); ?>
 					</div><!-- .first -->
 					<?php endif; ?>
 				</div>
-
+                                </div>
 			</div>
 
 
